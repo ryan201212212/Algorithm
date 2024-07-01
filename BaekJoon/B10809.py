@@ -1,0 +1,19 @@
+S = str(input())
+answer = ''
+for i in range(S) :
+    if i in S :
+        answer += len()
+    else :
+        answer += -1
+
+print(answer)
+
+S = input().strip() #strip 앞 뒤 공백 제거
+alphabet = 'abcdefghijklmnopqrstuvwxyz' #알파벳 리스트 만들고
+answer = [] #결과 저장할 리스트 만들고
+
+for i in alphabet:
+    index = S.find(i) #S가 처음 등장하는 위치 확인
+    answer.append(index) #결과를 리스트에 추가
+
+print(" ".join(map(str, answer))) #리스트 형태의 answer를 문자열로 변환하고 이를 공백으로 구분하여 출력
