@@ -6,4 +6,4 @@ def solution(participant, completion):
     comp = Counter(completion)
     result = all - comp
     
-    return list(result.keys())[0]
+    return list(result)[0]
