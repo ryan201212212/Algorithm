@@ -1,0 +1,15 @@
+n = int(input())
+
+for i in range(n) :
+    p = input()
+    score = 0
+    combo = 0
+
+    for i in p :
+        if i == 'O' :
+            combo += 1
+            score += combo
+        else :
+            combo = 0
+
+    print(score)
