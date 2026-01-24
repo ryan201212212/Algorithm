@@ -3,9 +3,9 @@ age = int(input())
 
 if A == 0 and age >= 19 :
     print("MAN")
-elif A != 0 and age >= 19 :
+elif A == 1 and age >= 19 :
     print("WOMAN")
-elif A == 1 and age < 19 :
+elif A == 0 and age < 19 :
     print("BOY")
-else :
+elif A == 1 and age < 19 :
     print("GIRL")
