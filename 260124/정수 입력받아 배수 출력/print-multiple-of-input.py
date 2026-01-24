@@ -1,4 +1,4 @@
 N = int(input())
 
-for i in range(N, 40, N):
-    print(i, end=" ")
+for i in range(1, 6):
+    print(N * i, end=" ")
