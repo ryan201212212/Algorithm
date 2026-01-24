@@ -1,8 +1,31 @@
 A,B = map(int, input().split())
 
-print(1 if A >= B else 0)
-print(1 if A > B else 1)
-print(1 if A <= B else 0)
-print(1 if A < B else 0)
-print(1 if A == B else 0)
-print(1 if A != B else 1)
+if A >= B:
+    print(1)
+else:
+    print(0)
+
+if A > B:
+    print(1)
+else:
+    print(0)
+
+if A <= B:
+    print(1)
+else:
+    print(0)
+
+if A < B:
+    print(1)
+else:
+    print(0)
+
+if A == B:
+    print(1)
+else:
+    print(0)
+
+if A != B:
+    print(1)
+else:
+    print(0)
