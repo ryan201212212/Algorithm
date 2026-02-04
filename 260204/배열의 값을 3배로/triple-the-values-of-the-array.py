@@ -1,6 +1,6 @@
-matrix = [3, 2, 3], [1, 3, 1], [1, 1, 1]
 rows = 3
 cols = 3
+matrix = [list(map(int, input().split())) for _ in range(rows)]
 
 for i in range(rows): 
     for j in range(cols): 
