@@ -1,5 +1,3 @@
-time= map(int, input().split(":"))
+h, m = map(int, input().split(":"))
 
-h = (time[0])
-m = (time[1])
-print(f"{h:m}")
+print(h+1,":",m,sep="")
