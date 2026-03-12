@@ -6,7 +6,7 @@ if N >= 3000 :
 elif N >= 1000 :
     print('mask')
 
-elif M >= 500 :
+elif N >= 500 :
     print('pen')
 
 else :
