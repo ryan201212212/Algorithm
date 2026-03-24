@@ -6,7 +6,7 @@ if A > B :
         print(i, end=" ")
         i -= 1
 
-elif A < B :
+else :
     i = B
     while i >= A :
         print(i, end=" ")
