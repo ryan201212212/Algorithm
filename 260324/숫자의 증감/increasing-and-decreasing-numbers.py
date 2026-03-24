@@ -8,7 +8,7 @@ if C == 'A' :
         i += 1
 
 elif C == 'D' :
-    i = 1
+    i = N
     while i <= N :
         print(i, end=" ")
         i -= 1
